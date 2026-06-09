@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>sarelth.medievalfastburglars</packageId>
+  <name>Medieval Fast Burglars</name>
+  <author>Sarelth</author>
+
+  <description>
+Adds fast, lightly armed burglar specialists for Medieval Overhaul brigand raids.
+
+This is an XML-only prototype of a stealth theft event: it does not add true stealth or custom steal-and-flee AI, but it adds night-themed raid strategy text, fast burglar pawn kinds, dark custom apparel, Biotech xenotype weighting, and optional xenotype weighting for several fantasy gene mods when active.
+
+Requires:
+- Medieval Overhaul
+  </description>
+
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+
+  <modDependencies>
+    <li>
+      <packageId>DankPyon.Medieval.Overhaul</packageId>
+      <displayName>Medieval Overhaul</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3219596926</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>DankPyon.Medieval.Overhaul</li>
+    <li>RedMattis.BigSmall.Core</li>
+    <li>JoeOwnage.5eXenos</li>
+    <li>V.Rooboid.Faun</li>
+    <li>tug.Satyr</li>
+    <li>tug.Minotaur</li>
+    <li>sarg.alphagenes</li>
+    <li>Addie.HouseVanIlla</li>
+  </loadAfter>
+</ModMetaData>

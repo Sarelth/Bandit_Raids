@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Big and Small - Genes & More -->
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,RedMattis.BigSmall.Core" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_NightCutpurse"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <VU_Imp MayRequire="RedMattis.BigSmall.Core">0.20</VU_Imp>
+      <VU_Succubus MayRequire="RedMattis.BigSmall.Core">0.08</VU_Succubus>
+      <VU_Returned_Intact MayRequire="RedMattis.BigSmall.Core">0.04</VU_Returned_Intact>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,RedMattis.BigSmall.Core" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_RoofRunner"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <VU_Imp MayRequire="RedMattis.BigSmall.Core">0.16</VU_Imp>
+      <VU_Succubus MayRequire="RedMattis.BigSmall.Core">0.06</VU_Succubus>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,RedMattis.BigSmall.Core" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_NightFence"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <VU_Hellguard MayRequire="RedMattis.BigSmall.Core">0.05</VU_Hellguard>
+      <VU_Returned_Intact MayRequire="RedMattis.BigSmall.Core">0.05</VU_Returned_Intact>
+    </value>
+  </Operation>
+
+  <!-- Joe's DnD Xenotypes -->
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,JoeOwnage.5eXenos" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_NightCutpurse"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <Joe_DarkElf_Xeno MayRequire="JoeOwnage.5eXenos">0.20</Joe_DarkElf_Xeno>
+      <Joe_Tabaxi_Xeno MayRequire="JoeOwnage.5eXenos">0.18</Joe_Tabaxi_Xeno>
+      <Joe_WoodElf_Xeno MayRequire="JoeOwnage.5eXenos">0.12</Joe_WoodElf_Xeno>
+      <Joe_Shifter_Xeno MayRequire="JoeOwnage.5eXenos">0.08</Joe_Shifter_Xeno>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,JoeOwnage.5eXenos" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_RoofRunner"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <Joe_Tabaxi_Xeno MayRequire="JoeOwnage.5eXenos">0.20</Joe_Tabaxi_Xeno>
+      <Joe_WoodElf_Xeno MayRequire="JoeOwnage.5eXenos">0.18</Joe_WoodElf_Xeno>
+      <Joe_DarkElf_Xeno MayRequire="JoeOwnage.5eXenos">0.14</Joe_DarkElf_Xeno>
+      <Joe_Shifter_Xeno MayRequire="JoeOwnage.5eXenos">0.12</Joe_Shifter_Xeno>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,JoeOwnage.5eXenos" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_NightFence"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <Joe_HillDwarf_Xeno MayRequire="JoeOwnage.5eXenos">0.12</Joe_HillDwarf_Xeno>
+      <Joe_MountainDwarf_Xeno MayRequire="JoeOwnage.5eXenos">0.10</Joe_MountainDwarf_Xeno>
+      <Joe_Orc_Xeno MayRequire="JoeOwnage.5eXenos">0.10</Joe_Orc_Xeno>
+      <Joe_Dragonborn_Xeno MayRequire="JoeOwnage.5eXenos">0.06</Joe_Dragonborn_Xeno>
+      <Joe_Warforged_Xeno MayRequire="JoeOwnage.5eXenos">0.04</Joe_Warforged_Xeno>
+    </value>
+  </Operation>
+
+  <!-- Roo's fantasy xenotypes -->
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,V.Rooboid.Faun" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_RoofRunner"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <RBSF_Faun MayRequire="V.Rooboid.Faun">0.16</RBSF_Faun>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,tug.Satyr" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_RoofRunner"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <RBSF_Satyr MayRequire="tug.Satyr">0.14</RBSF_Satyr>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,tug.Minotaur" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_NightFence"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <RBM_Minotaur MayRequire="tug.Minotaur">0.05</RBM_Minotaur>
+    </value>
+  </Operation>
+
+  <!-- Medieval Overhaul: House Van Illa -->
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,Addie.HouseVanIlla" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_NightCutpurse"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <Addie_IllanFey MayRequire="Addie.HouseVanIlla">0.06</Addie_IllanFey>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,Addie.HouseVanIlla" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_NightFence"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <Addie_IllanFey MayRequire="Addie.HouseVanIlla">0.08</Addie_IllanFey>
+      <Addie_AncientIllan MayRequire="Addie.HouseVanIlla">0.02</Addie_AncientIllan>
+      <Addie_AncientSimulacrum MayRequire="Addie.HouseVanIlla">0.02</Addie_AncientSimulacrum>
+    </value>
+  </Operation>
+
+  <!-- Alpha Genes -->
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,sarg.alphagenes" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_NightCutpurse"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <AG_Fleetkind MayRequire="sarg.alphagenes">0.15</AG_Fleetkind>
+      <AG_Helixien MayRequire="sarg.alphagenes">0.08</AG_Helixien>
+      <AG_Wretch MayRequire="sarg.alphagenes">0.05</AG_Wretch>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,sarg.alphagenes" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_RoofRunner"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <AG_Fleetkind MayRequire="sarg.alphagenes">0.18</AG_Fleetkind>
+      <AG_Helixien MayRequire="sarg.alphagenes">0.08</AG_Helixien>
+    </value>
+  </Operation>
+
+  <Operation MayRequire="Ludeon.RimWorld.Biotech,sarg.alphagenes" Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="HSMB_NightFence"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <AG_Taukai MayRequire="sarg.alphagenes">0.08</AG_Taukai>
+      <AG_Drakonori MayRequire="sarg.alphagenes">0.05</AG_Drakonori>
+      <AG_RoxTouched MayRequire="sarg.alphagenes,DankPyon.Medieval.Overhaul">0.05</AG_RoxTouched>
+    </value>
+  </Operation>
+
+</Patch>

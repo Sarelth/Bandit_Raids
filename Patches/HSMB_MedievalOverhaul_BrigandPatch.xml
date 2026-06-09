@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation MayRequire="DankPyon.Medieval.Overhaul" Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="DankPyon_BrigandFactionBase"]/pawnGroupMakers</xpath>
+    <value>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>25</commonality>
+        <options>
+          <HSMB_NightCutpurse>65</HSMB_NightCutpurse>
+          <HSMB_RoofRunner>35</HSMB_RoofRunner>
+          <HSMB_NightFence>10</HSMB_NightFence>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <DankPyon_BrigandThug>35</DankPyon_BrigandThug>
+          <HSMB_NightCutpurse>35</HSMB_NightCutpurse>
+          <HSMB_RoofRunner>20</HSMB_RoofRunner>
+          <HSMB_NightFence>5</HSMB_NightFence>
+        </options>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

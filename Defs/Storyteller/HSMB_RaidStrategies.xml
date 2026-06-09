@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RaidStrategyDef>
+    <defName>HSMB_NightBurglaryRaid</defName>
+    <workerClass>RaidStrategyWorker_ImmediateAttack</workerClass>
+    <minPawns>2</minPawns>
+    <raidLootValueFactor>0.5</raidLootValueFactor>
+    <selectionWeightPerPointsCurve>
+      <points>
+        <li>(0, 0)</li>
+      </points>
+    </selectionWeightPerPointsCurve>
+    <selectionWeightCurvesPerFaction>
+      <li>
+        <faction>DankPyon_BrigandFaction</faction>
+        <selectionWeightPerPointsCurve>
+          <points>
+            <li>(0, 0.18)</li>
+            <li>(300, 0.32)</li>
+            <li>(1000, 0.22)</li>
+          </points>
+        </selectionWeightPerPointsCurve>
+      </li>
+    </selectionWeightCurvesPerFaction>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 0.45</li>
+        <li>800, 0.55</li>
+        <li>3000, 0.65</li>
+      </points>
+    </pointsFactorCurve>
+    <arriveModes>
+      <li>EdgeWalkIn</li>
+      <li>EdgeWalkInGroups</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">EdgeWalkInDarkness</li>
+    </arriveModes>
+    <letterLabelEnemy>Night burglars</letterLabelEnemy>
+    <arrivalTextEnemy>A small band of brigands has slipped onto the map edge under cover of darkness. They are lightly equipped and moving fast.</arrivalTextEnemy>
+    <letterLabelFriendly>Night runners</letterLabelFriendly>
+    <arrivalTextFriendly>A small band of friendly scouts has slipped onto the map edge and is moving in to help.</arrivalTextFriendly>
+    <layerWhitelist>
+      <li>Surface</li>
+    </layerWhitelist>
+  </RaidStrategyDef>
+
+</Defs>

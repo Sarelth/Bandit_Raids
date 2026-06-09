@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnKindDef ParentName="DankPyon_BrigandPawnKindBase">
+    <defName>HSMB_NightCutpurse</defName>
+    <label>night cutpurse</label>
+    <combatPower>45</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.65~1.25</gearHealthRange>
+    <apparelMoney>450~650</apparelMoney>
+    <apparelTags>
+      <li>HSMB_NightBurglar</li>
+      <li>DankPyon_BrigandThug</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>HSMB_Apparel_NightCowl</li>
+      <li>HSMB_Apparel_DarkPaddedVest</li>
+      <li>HSMB_Apparel_SoftSoleBoots</li>
+    </apparelRequired>
+    <weaponMoney>120~260</weaponMoney>
+    <weaponTags>
+      <li>DankPyon_Hatchet</li>
+      <li>DankPyon_Bludgeon</li>
+      <li>DankPyon_Falchion</li>
+    </weaponTags>
+    <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+      <xenotypeChances>
+        <Baseliner>0.45</Baseliner>
+        <Dirtmole>0.25</Dirtmole>
+        <Impid>0.10</Impid>
+        <Pigskin>0.10</Pigskin>
+        <Yttakin>0.10</Yttakin>
+      </xenotypeChances>
+    </xenotypeSet>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <disallowedTraits>
+      <li>Wimp</li>
+      <li>Nudist</li>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <skills>
+      <li>
+        <skill>Melee</skill>
+        <range>5~9</range>
+      </li>
+      <li>
+        <skill>Construction</skill>
+        <range>4~8</range>
+      </li>
+    </skills>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>6~12</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="DankPyon_BrigandPawnKindBase">
+    <defName>HSMB_RoofRunner</defName>
+    <label>roof-runner</label>
+    <combatPower>60</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.75~1.35</gearHealthRange>
+    <apparelMoney>500~750</apparelMoney>
+    <apparelTags>
+      <li>HSMB_NightBurglar</li>
+      <li>DankPyon_BrigandThug</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>HSMB_Apparel_NightCowl</li>
+      <li>HSMB_Apparel_DarkPaddedVest</li>
+      <li>HSMB_Apparel_SoftSoleBoots</li>
+    </apparelRequired>
+    <weaponMoney>180~340</weaponMoney>
+    <weaponTags>
+      <li>DankPyon_HuntingBow</li>
+      <li>DankPyon_Hatchet</li>
+    </weaponTags>
+    <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+      <xenotypeChances>
+        <Baseliner>0.40</Baseliner>
+        <Dirtmole>0.20</Dirtmole>
+        <Impid>0.20</Impid>
+        <Yttakin>0.15</Yttakin>
+        <Pigskin>0.05</Pigskin>
+      </xenotypeChances>
+    </xenotypeSet>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+      <li>Nudist</li>
+    </disallowedTraits>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>5~10</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>3~6</range>
+      </li>
+    </skills>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>8~14</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="DankPyon_BrigandPawnKindBase">
+    <defName>HSMB_NightFence</defName>
+    <label>night fence</label>
+    <combatPower>80</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.8~1.5</gearHealthRange>
+    <apparelMoney>650~950</apparelMoney>
+    <apparelTags>
+      <li>HSMB_NightBurglar</li>
+      <li>DankPyon_BrigandRaider</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>HSMB_Apparel_NightCowl</li>
+      <li>HSMB_Apparel_DarkPaddedVest</li>
+      <li>HSMB_Apparel_SoftSoleBoots</li>
+    </apparelRequired>
+    <weaponMoney>220~420</weaponMoney>
+    <weaponTags>
+      <li>DankPyon_Falchion</li>
+      <li>DankPyon_ArmingSword</li>
+      <li>DankPyon_Crossbow</li>
+    </weaponTags>
+    <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+      <xenotypeChances>
+        <Baseliner>0.45</Baseliner>
+        <Dirtmole>0.20</Dirtmole>
+        <Pigskin>0.15</Pigskin>
+        <Yttakin>0.10</Yttakin>
+        <Impid>0.10</Impid>
+      </xenotypeChances>
+    </xenotypeSet>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <disallowedTraits>
+      <li>Wimp</li>
+      <li>Nudist</li>
+    </disallowedTraits>
+    <skills>
+      <li>
+        <skill>Melee</skill>
+        <range>7~11</range>
+      </li>
+      <li>
+        <skill>Shooting</skill>
+        <range>4~8</range>
+      </li>
+      <li>
+        <skill>Social</skill>
+        <range>6~11</range>
+      </li>
+    </skills>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>12~20</initialResistanceRange>
+  </PawnKindDef>
+
+</Defs>

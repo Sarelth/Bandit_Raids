@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="DankPyon_HatMakeableBase">
+    <defName>HSMB_Apparel_NightCowl</defName>
+    <label>night cowl</label>
+    <description>A dark cloth hood worn by cutpurses, scouts, and anyone else who would rather be mistaken for a shadow.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Headgear/Hood/Hood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.06</Mass>
+      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeDodgeChance>0.01</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headgear/Hood/Hood</wornGraphicPath>
+      <tags>
+        <li>HSMB_NightBurglar</li>
+        <li>DankPyon_BrigandThug</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.05,0.055,0.06)</only>
+        </li>
+        <li>
+          <weight>8</weight>
+          <only>(0.09,0.075,0.055)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <only>(0.10,0.10,0.12)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>HSMB_Apparel_DarkPaddedVest</defName>
+    <label>dark padded vest</label>
+    <description>A light leather-and-cloth vest padded enough to turn glancing cuts, but soft enough to move quietly in.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/LightArmor/Leather_Tunic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>105</MaxHitPoints>
+      <WorkToMake>3200</WorkToMake>
+      <Mass>0.75</Mass>
+      <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.02</MoveSpeed>
+      <MeleeDodgeChance>0.015</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/LightArmor/Leather_Tunic</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>HSMB_NightBurglar</li>
+        <li>DankPyon_BrigandThug</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.055,0.05,0.045)</only>
+        </li>
+        <li>
+          <weight>8</weight>
+          <only>(0.11,0.085,0.055)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <only>(0.08,0.085,0.09)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>HSMB_Apparel_SoftSoleBoots</defName>
+    <label>soft-sole boots</label>
+    <description>Supple leather boots with wrapped soles. They give up protection for speed and a quieter step.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Footwear/BootsLeather</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <tradeability>Sellable</tradeability>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.18</Mass>
+      <StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.08</MoveSpeed>
+      <MeleeDodgeChance>0.02</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Feet</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>HSMB_NightBurglar</li>
+        <li>DankPyon_BrigandThug</li>
+        <li>DankPyon_BrigandMarksman</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.045,0.04,0.035)</only>
+        </li>
+        <li>
+          <weight>8</weight>
+          <only>(0.10,0.075,0.045)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+</Defs>
