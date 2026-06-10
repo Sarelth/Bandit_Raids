@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SimpleSidearms.rimworld.SidearmWeaponTagMapDef MayRequire="PeteTimesSix.SimpleSidearms">
+    <defName>SBR_BurglarBladeSidearmMap</defName>
+    <sourceTag>SBR_BurglarBlade</sourceTag>
+    <resultTags>
+      <li>SBR_BurglarThrown</li>
+      <li>SBR_BurglarCrossbow</li>
+      <li>MedievalMeleeBasic</li>
+      <li>ImprovisedMelee</li>
+    </resultTags>
+  </SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+
+  <SimpleSidearms.rimworld.SidearmWeaponTagMapDef MayRequire="PeteTimesSix.SimpleSidearms">
+    <defName>SBR_BurglarClubSidearmMap</defName>
+    <sourceTag>SBR_BurglarClub</sourceTag>
+    <resultTags>
+      <li>SBR_BurglarBlade</li>
+      <li>SBR_BurglarThrown</li>
+      <li>MedievalMeleeBasic</li>
+      <li>ImprovisedMelee</li>
+    </resultTags>
+  </SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+
+  <SimpleSidearms.rimworld.SidearmWeaponTagMapDef MayRequire="PeteTimesSix.SimpleSidearms">
+    <defName>SBR_BurglarBowSidearmMap</defName>
+    <sourceTag>SBR_BurglarBow</sourceTag>
+    <resultTags>
+      <li>SBR_BurglarBlade</li>
+      <li>SBR_BurglarClub</li>
+      <li>MedievalMeleeBasic</li>
+      <li>ImprovisedMelee</li>
+    </resultTags>
+  </SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+
+  <SimpleSidearms.rimworld.SidearmWeaponTagMapDef MayRequire="PeteTimesSix.SimpleSidearms">
+    <defName>SBR_BurglarCrossbowSidearmMap</defName>
+    <sourceTag>SBR_BurglarCrossbow</sourceTag>
+    <resultTags>
+      <li>SBR_BurglarBlade</li>
+      <li>SBR_BurglarClub</li>
+      <li>MedievalMeleeBasic</li>
+      <li>ImprovisedMelee</li>
+    </resultTags>
+  </SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+
+  <SimpleSidearms.rimworld.SidearmWeaponTagMapDef MayRequire="PeteTimesSix.SimpleSidearms">
+    <defName>SBR_BurglarThrownSidearmMap</defName>
+    <sourceTag>SBR_BurglarThrown</sourceTag>
+    <resultTags>
+      <li>SBR_BurglarBlade</li>
+      <li>SBR_BurglarClub</li>
+      <li>MedievalMeleeBasic</li>
+      <li>ImprovisedMelee</li>
+    </resultTags>
+  </SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+
+  <SimpleSidearms.rimworld.SidearmWeaponTagMapDef MayRequire="PeteTimesSix.SimpleSidearms">
+    <defName>SBR_BurglarEliteSidearmMap</defName>
+    <sourceTag>SBR_BurglarElite</sourceTag>
+    <resultTags>
+      <li>SBR_BurglarBlade</li>
+      <li>SBR_BurglarClub</li>
+      <li>SBR_BurglarThrown</li>
+      <li>MedievalMeleeBasic</li>
+      <li>ImprovisedMelee</li>
+    </resultTags>
+  </SimpleSidearms.rimworld.SidearmWeaponTagMapDef>
+
+</Defs>

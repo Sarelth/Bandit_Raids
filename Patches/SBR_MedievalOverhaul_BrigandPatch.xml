@@ -8,9 +8,9 @@
         <kindDef>Combat</kindDef>
         <commonality>25</commonality>
         <options>
-          <HSMB_NightCutpurse>65</HSMB_NightCutpurse>
-          <HSMB_RoofRunner>35</HSMB_RoofRunner>
-          <HSMB_NightFence>10</HSMB_NightFence>
+          <SBR_NightCutpurse>65</SBR_NightCutpurse>
+          <SBR_RoofRunner>35</SBR_RoofRunner>
+          <SBR_NightFence>10</SBR_NightFence>
         </options>
       </li>
       <li>
@@ -18,9 +18,9 @@
         <commonality>20</commonality>
         <options>
           <DankPyon_BrigandThug>35</DankPyon_BrigandThug>
-          <HSMB_NightCutpurse>35</HSMB_NightCutpurse>
-          <HSMB_RoofRunner>20</HSMB_RoofRunner>
-          <HSMB_NightFence>5</HSMB_NightFence>
+          <SBR_NightCutpurse>35</SBR_NightCutpurse>
+          <SBR_RoofRunner>20</SBR_RoofRunner>
+          <SBR_NightFence>5</SBR_NightFence>
         </options>
       </li>
     </value>

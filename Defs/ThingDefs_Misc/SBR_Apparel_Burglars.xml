@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="DankPyon_HatMakeableBase">
-    <defName>HSMB_Apparel_NightCowl</defName>
+    <defName>SBR_Apparel_NightCowl</defName>
     <label>night cowl</label>
     <description>A dark cloth hood worn by cutpurses, scouts, and anyone else who would rather be mistaken for a shadow.</description>
     <graphicData>
@@ -28,7 +28,7 @@
     <apparel>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headgear/Hood/Hood</wornGraphicPath>
       <tags>
-        <li>HSMB_NightBurglar</li>
+        <li>SBR_NightBurglar</li>
         <li>DankPyon_BrigandThug</li>
       </tags>
       <defaultOutfitTags>
@@ -54,7 +54,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>HSMB_Apparel_DarkPaddedVest</defName>
+    <defName>SBR_Apparel_DarkPaddedVest</defName>
     <label>dark padded vest</label>
     <description>A light leather-and-cloth vest padded enough to turn glancing cuts, but soft enough to move quietly in.</description>
     <graphicData>
@@ -95,7 +95,7 @@
         <li>Middle</li>
       </layers>
       <tags>
-        <li>HSMB_NightBurglar</li>
+        <li>SBR_NightBurglar</li>
         <li>DankPyon_BrigandThug</li>
       </tags>
       <defaultOutfitTags>
@@ -130,7 +130,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>HSMB_Apparel_SoftSoleBoots</defName>
+    <defName>SBR_Apparel_SoftSoleBoots</defName>
     <label>soft-sole boots</label>
     <description>Supple leather boots with wrapped soles. They give up protection for speed and a quieter step.</description>
     <graphicData>
@@ -167,7 +167,7 @@
         <li>Middle</li>
       </layers>
       <tags>
-        <li>HSMB_NightBurglar</li>
+        <li>SBR_NightBurglar</li>
         <li>DankPyon_BrigandThug</li>
         <li>DankPyon_BrigandMarksman</li>
       </tags>

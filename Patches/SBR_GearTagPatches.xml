@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Medieval Overhaul core gear. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DankPyon_MeleeWeapon_Hatchet" or defName="DankPyon_MeleeWeapon_ButcherCleaver" or defName="DankPyon_MeleeWeapon_Falchion" or defName="DankPyon_MeleeWeapon_Handaxe"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarBlade</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DankPyon_MeleeWeapon_ArmingSword" or defName="DankPyon_MeleeWeapon_FencingSword" or defName="DankPyon_MeleeWeapon_NomadMace" or defName="DankPyon_MeleeWeapon_WingedMace"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarElite</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DankPyon_MeleeWeapon_TwoHandedMace"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarClub</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DankPyon_Bow_Hunting"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarBow</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DankPyon_Crossbow"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarCrossbow</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DankPyon_CrossbowHeavy" or defName="Bow_War"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarElite</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DankPyon_Headgear_Hood" or defName="DankPyon_Apparel_Leather_Tunic" or defName="DankPyon_Apparel_Padded_Leather" or defName="DankPyon_Apparel_ChaussesPadded" or defName="DankPyon_Apparel_Padded_Surcoat" or defName="DankPyon_Footwear_BootsLeather" or defName="DankPyon_Handwear_GlovesLeather"]</xpath>
+    <value>
+      <apparelTags>
+        <li>SBR_NightBurglar</li>
+      </apparelTags>
+    </value>
+  </Operation>
+
+  <!-- Medieval Madness: Tools of the Trade. -->
+  <Operation Class="PatchOperationAdd" MayRequire="madman.toolsofthetrade">
+    <xpath>/Defs/ThingDef[defName="MM_dagger" or defName="MM_hatchet" or defName="MM_cleaver"]</xpath>
+    <value>
+      <weaponTags>
+        <li>SBR_BurglarBlade</li>
+        <li>MedievalMeleeBasic</li>
+      </weaponTags>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="madman.toolsofthetrade">
+    <xpath>/Defs/ThingDef[defName="MM_bludgeon" or defName="MM_mallet"]</xpath>
+    <value>
+      <weaponTags>
+        <li>SBR_BurglarClub</li>
+        <li>MedievalMeleeBasic</li>
+      </weaponTags>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="madman.toolsofthetrade">
+    <xpath>/Defs/ThingDef[defName="MM_rapier" or defName="MM_fencingsword" or defName="MM_flangedmace"]</xpath>
+    <value>
+      <weaponTags>
+        <li>SBR_BurglarElite</li>
+        <li>MedievalMeleeDecent</li>
+      </weaponTags>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="madman.toolsofthetrade">
+    <xpath>/Defs/ThingDef[defName="MMr_tknives" or defName="MMr_taxes" or defName="MMr_fbolas" or defName="MMr_javelin" or defName="MMr_harpoon"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarThrown</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="madman.toolsofthetrade">
+    <xpath>/Defs/ThingDef[defName="MMr_crossbow_hand" or defName="MMr_crossbow_light"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarCrossbow</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="madman.toolsofthetrade">
+    <xpath>/Defs/ThingDef[defName="MMr_crossbow_double" or defName="MMr_crossbow_repeater" or defName="MMr_clongbow"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarElite</li>
+    </value>
+  </Operation>
+
+  <!-- Vanilla Factions Expanded - Medieval 2. -->
+  <Operation Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
+    <xpath>/Defs/ThingDef[defName="VFEM2_ThrowingAxe"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarThrown</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
+    <xpath>/Defs/ThingDef[defName="VFEM2_Warbow" or defName="VFEM2_MeleeWeapon_HeavyMace"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarElite</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
+    <xpath>/Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor" or defName="VFEM2_Apparel_LeatherHelmet" or defName="VFEM2_Apparel_PaddedArmor" or defName="VFEM2_Apparel_PaddedHelmet"]</xpath>
+    <value>
+      <apparelTags>
+        <li>SBR_NightBurglar</li>
+      </apparelTags>
+    </value>
+  </Operation>
+
+  <!-- Optional fantasy flavor. Kept elite-only so it does not flood common raids. -->
+  <Operation Class="PatchOperationAdd" MayRequire="mosi.ShardDagger">
+    <xpath>/Defs/ThingDef[defName="Mosi_Melee_ShardDagger"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarElite</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="Addie.HouseVanIlla">
+    <xpath>/Defs/ThingDef[defName="Addie_IllanRapier" or defName="Addie_RimecrystalDagger" or defName="Addie_RimedCrossbow"]/weaponTags</xpath>
+    <value>
+      <li>SBR_BurglarElite</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="BigT.HouseIgnivar">
+    <xpath>/Defs/ThingDef[defName="Ignivar_Hood" or defName="Ignivar_Scarf"]</xpath>
+    <value>
+      <apparelTags>
+        <li>SBR_NightBurglar</li>
+      </apparelTags>
+    </value>
+  </Operation>
+
+</Patch>

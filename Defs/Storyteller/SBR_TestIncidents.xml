@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <IncidentDef>
+    <defName>SBR_TestNightBurglars</defName>
+    <label>test night burglars</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_RaidEnemy</workerClass>
+    <letterLabel>Night burglars</letterLabel>
+    <letterText>A small band of brigands has slipped onto the map edge under cover of darkness. They are lightly equipped and moving fast.</letterText>
+    <letterDef>ThreatBig</letterDef>
+    <baseChance>0</baseChance>
+    <category>ThreatBig</category>
+    <pointsScaleable>true</pointsScaleable>
+    <tale>Raid</tale>
+  </IncidentDef>
+
+</Defs>

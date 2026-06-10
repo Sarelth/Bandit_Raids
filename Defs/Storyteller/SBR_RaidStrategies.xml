@@ -2,7 +2,7 @@
 <Defs>
 
   <RaidStrategyDef>
-    <defName>HSMB_NightBurglaryRaid</defName>
+    <defName>SBR_NightBurglaryRaid</defName>
     <workerClass>RaidStrategyWorker_ImmediateAttack</workerClass>
     <minPawns>2</minPawns>
     <raidLootValueFactor>0.5</raidLootValueFactor>

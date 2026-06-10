@@ -2,7 +2,7 @@
 <Defs>
 
   <PawnKindDef ParentName="DankPyon_BrigandPawnKindBase">
-    <defName>HSMB_NightCutpurse</defName>
+    <defName>SBR_NightCutpurse</defName>
     <label>night cutpurse</label>
     <combatPower>45</combatPower>
     <canBeSapper>true</canBeSapper>
@@ -10,16 +10,18 @@
     <gearHealthRange>0.65~1.25</gearHealthRange>
     <apparelMoney>450~650</apparelMoney>
     <apparelTags>
-      <li>HSMB_NightBurglar</li>
+      <li>SBR_NightBurglar</li>
       <li>DankPyon_BrigandThug</li>
     </apparelTags>
     <apparelRequired>
-      <li>HSMB_Apparel_NightCowl</li>
-      <li>HSMB_Apparel_DarkPaddedVest</li>
-      <li>HSMB_Apparel_SoftSoleBoots</li>
+      <li>SBR_Apparel_NightCowl</li>
+      <li>SBR_Apparel_DarkPaddedVest</li>
+      <li>SBR_Apparel_SoftSoleBoots</li>
     </apparelRequired>
     <weaponMoney>120~260</weaponMoney>
     <weaponTags>
+      <li>SBR_BurglarBlade</li>
+      <li>SBR_BurglarClub</li>
       <li>DankPyon_Hatchet</li>
       <li>DankPyon_Bludgeon</li>
       <li>DankPyon_Falchion</li>
@@ -56,7 +58,7 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="DankPyon_BrigandPawnKindBase">
-    <defName>HSMB_RoofRunner</defName>
+    <defName>SBR_RoofRunner</defName>
     <label>roof-runner</label>
     <combatPower>60</combatPower>
     <canBeSapper>true</canBeSapper>
@@ -64,16 +66,19 @@
     <gearHealthRange>0.75~1.35</gearHealthRange>
     <apparelMoney>500~750</apparelMoney>
     <apparelTags>
-      <li>HSMB_NightBurglar</li>
+      <li>SBR_NightBurglar</li>
       <li>DankPyon_BrigandThug</li>
     </apparelTags>
     <apparelRequired>
-      <li>HSMB_Apparel_NightCowl</li>
-      <li>HSMB_Apparel_DarkPaddedVest</li>
-      <li>HSMB_Apparel_SoftSoleBoots</li>
+      <li>SBR_Apparel_NightCowl</li>
+      <li>SBR_Apparel_DarkPaddedVest</li>
+      <li>SBR_Apparel_SoftSoleBoots</li>
     </apparelRequired>
     <weaponMoney>180~340</weaponMoney>
     <weaponTags>
+      <li>SBR_BurglarBow</li>
+      <li>SBR_BurglarCrossbow</li>
+      <li>SBR_BurglarThrown</li>
       <li>DankPyon_HuntingBow</li>
       <li>DankPyon_Hatchet</li>
     </weaponTags>
@@ -108,7 +113,7 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="DankPyon_BrigandPawnKindBase">
-    <defName>HSMB_NightFence</defName>
+    <defName>SBR_NightFence</defName>
     <label>night fence</label>
     <combatPower>80</combatPower>
     <canBeSapper>true</canBeSapper>
@@ -116,16 +121,20 @@
     <gearHealthRange>0.8~1.5</gearHealthRange>
     <apparelMoney>650~950</apparelMoney>
     <apparelTags>
-      <li>HSMB_NightBurglar</li>
+      <li>SBR_NightBurglar</li>
       <li>DankPyon_BrigandRaider</li>
     </apparelTags>
     <apparelRequired>
-      <li>HSMB_Apparel_NightCowl</li>
-      <li>HSMB_Apparel_DarkPaddedVest</li>
-      <li>HSMB_Apparel_SoftSoleBoots</li>
+      <li>SBR_Apparel_NightCowl</li>
+      <li>SBR_Apparel_DarkPaddedVest</li>
+      <li>SBR_Apparel_SoftSoleBoots</li>
     </apparelRequired>
     <weaponMoney>220~420</weaponMoney>
     <weaponTags>
+      <li>SBR_BurglarBlade</li>
+      <li>SBR_BurglarClub</li>
+      <li>SBR_BurglarCrossbow</li>
+      <li>SBR_BurglarElite</li>
       <li>DankPyon_Falchion</li>
       <li>DankPyon_ArmingSword</li>
       <li>DankPyon_Crossbow</li>

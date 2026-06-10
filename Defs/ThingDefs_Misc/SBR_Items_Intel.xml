@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="DankPyon_LootBase">
+    <defName>SBR_BanditCacheMap</defName>
+    <label>bandit cache map</label>
+    <description>A stained scrap of parchment covered in false landmarks, coded marks, and a few convincing directions. It claims to point toward goods hidden by outlaws, though a buyer has no way to know whether the cache is real, already picked clean, or guarded.</description>
+    <stackLimit>5</stackLimit>
+    <graphicData>
+      <texPath>Special/TornNote</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>180</MarketValue>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Beauty>0</Beauty>
+      <Mass>0.05</Mass>
+      <Flammability>1</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <tradeTags>
+      <li>DankPyon_Loot</li>
+      <li>SBR_BlackMarketIntel</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="DankPyon_LootBase">
+    <defName>SBR_StolenLedger</defName>
+    <label>stolen ledger</label>
+    <description>A compact book of half-erased names, debts, delivery marks, and coded tally lines. Traders treat it as a curiosity, but fences and informants know it may be worth more than the paper it is written on.</description>
+    <stackLimit>3</stackLimit>
+    <graphicData>
+      <texPath>Special/TornNote</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>95</MarketValue>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Beauty>0</Beauty>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <tradeTags>
+      <li>DankPyon_Loot</li>
+      <li>SBR_BlackMarketIntel</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

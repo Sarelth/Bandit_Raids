@@ -7,7 +7,7 @@
   <description>
 Adds fast, lightly armed burglar specialists for Medieval Overhaul brigand raids.
 
-This is an XML-only prototype of a stealth theft event: it does not add true stealth or custom steal-and-flee AI, but it adds night-themed raid strategy text, fast burglar pawn kinds, dark custom apparel, Biotech xenotype weighting, and optional xenotype weighting for several fantasy gene mods when active.
+This is an XML-only prototype of a medieval bandit system: it does not add true stealth or custom steal-and-flee AI, but it adds night-themed raid strategy text, fast burglar pawn kinds, dark custom apparel, Biotech xenotype weighting, optional xenotype weighting for several fantasy gene mods when active, and a neutral shady map seller trader for black-market loot hooks.
 
 Requires:
 - Medieval Overhaul
@@ -34,5 +34,10 @@ Requires:
     <li>tug.Minotaur</li>
     <li>sarg.alphagenes</li>
     <li>Addie.HouseVanIlla</li>
+    <li>madman.toolsofthetrade</li>
+    <li>OskarPotocki.VFE.Medieval2</li>
+    <li>PeteTimesSix.SimpleSidearms</li>
+    <li>mosi.ShardDagger</li>
+    <li>BigT.HouseIgnivar</li>
   </loadAfter>
 </ModMetaData>
